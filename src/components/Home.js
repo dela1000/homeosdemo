@@ -48,7 +48,7 @@ export default class Home extends Component {
                         Lesson 01 - Self Care is Important
                     </Text>
                     <Text style={style.headerSubtext}>
-                        Road to of Health - By Dan Pardi, MS, PhD(c)
+                        Road of Health - By Dan Pardi, MS, PhD(c)
                     </Text>
                 </View>
                 <View style={style.videoContainer}>
@@ -63,7 +63,7 @@ export default class Home extends Component {
                         orientation="landscape"
                         style={{ 
                             width: videoWidth - 10, 
-                            height: videoHeight,
+                            height: videoHeight - 6,
                         }}
                     />
                 </View>
