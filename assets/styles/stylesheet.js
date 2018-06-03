@@ -42,11 +42,11 @@ export const style = StyleSheet.create({
             fontWeight: "500"
         },
         lessonHeader:{
-            margin: 20
+            margin: 25
         },
         lessonHeaderText: {
             fontFamily: 'gotham',
-            fontSize: 18
+            fontSize: 24
         },
         headerSubtext: {
             fontFamily: 'gotham',

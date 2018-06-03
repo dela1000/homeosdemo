@@ -9,7 +9,7 @@ export const style = StyleSheet.create({
     headerImage: {
         resizeMode: "contain",
         width: 120,
-        margin: 10,
+        margin: 20,
         padding: 10
     }
 })

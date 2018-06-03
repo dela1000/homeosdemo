@@ -37,6 +37,8 @@ export default class Home extends Component {
         const videoHeight = videoWidth * (9 / 16);
         const centeredContentWidth = 60;
 
+
+
         return (
             <View style={ style.container }>
                 <StatusBar  barStyle="light-content" />
@@ -57,21 +59,13 @@ export default class Home extends Component {
                         useNativeControls={true}
                         rate={1.0}
                         volume={1.0}
-                        resizeMode="cover"
+                        resizeMode="contain"
                         orientation="landscape"
                         style={{ 
                             width: videoWidth - 10, 
-                            height: videoHeight, 
+                            height: videoHeight,
                         }}
                     />
-                    <View style={style.controlBar}>
-                        <MaterialIcons 
-                            name={this.state.shouldPlay ? "pause" : "play-arrow"} 
-                            size={45} 
-                            color="white" 
-                            onPress={this.handlePlayAndPause} 
-                        />
-                    </View>
                 </View>
             </View>
         );

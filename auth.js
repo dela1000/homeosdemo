@@ -20,7 +20,7 @@ export const onSignOut = () => {
     AsyncStorage.removeItem('username');
     AsyncStorage.removeItem('token');
     AsyncStorage.removeItem('userId');
-    AsyncStorage.removeItem('signedIn');
+    AsyncStorage.setItem('signedIn', 'false');
     return true;
 };
 
