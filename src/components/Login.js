@@ -65,12 +65,17 @@ export default class Login extends Component {
                         autoCapitalize="none"
                         value={this.state.password}
                         returnKeyType="go"
-                        returnKeyLabel="Go!!"
+                        returnKeyLabel="Go"
                     >
                     </TextInput>
                     <TouchableOpacity style={style.buttonContainer} onPress={this.login.bind()}>
                         <Text style={style.buttonText}>
                             Login
+                        </Text>
+                    </TouchableOpacity>
+                    <TouchableOpacity style={style.buttonContainer} onPress={() => this.props.navigation.navigate('SignUp')}>
+                        <Text style={style.buttonText}>
+                            Sign Up
                         </Text>
                     </TouchableOpacity>
                 </View>
