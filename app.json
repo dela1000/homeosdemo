@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "sdkVersion": "27.0.0",
+    "name": "humanOS",
+    "description": "Your Operating System for Healthy Living",
+    "slug": "humanOS",
+    "privacy": "public",
+    "icon": "./assets/logos/humanosicon.png",
+    "splash": {
+      "image": "./assets/logos/humanossplash.png",
+      "backgroundColor": "#f9f9f9",
+      "resizeMode": "cover",
+    },
+    "android": {
+        "package": "com.humanos.humanos",
+        "versionCode": 1,
+        "permissions": [],
+        "icon": "./assets/logos/humanosicon.png"
+    },
+    "ios": {
+        "bundleIdentifier": "humanOS",
+        "buildNumber": "0.1.0",
+        "icon": "./assets/logos/humanosicon.png",
+        "splash": {
+          "backgroundColor": "#f9f9f9",
+          "resizeMode": "cover",
+          "image": "./assets/logos/humanossplash.png",
+        },
+    }
+  }
+}
