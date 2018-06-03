@@ -75,7 +75,7 @@ export default class SignUp extends Component {
                         returnKeyType="next"
                         style={style.input}
                         ref={(input) => this.confirmPasswordInput = input }
-                        onSubmitEditing={() => this.login.bind()} 
+                        onSubmitEditing={() => { this.signUp() }}
                         KeyboardType=""
                         autoCorrect={false}
                         autoCapitalize="none"

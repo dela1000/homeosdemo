@@ -41,17 +41,22 @@ export const style = StyleSheet.create({
             fontSize: 20,
             fontWeight: "500"
         },
-        logoutButtonContainer: {
-            marginTop: 100,
-            backgroundColor: "#989898",
-            paddingVertical: 15,
-            marginBottom: 10,
+        lessonHeader:{
+            margin: 20
+        },
+        lessonHeaderText: {
+            fontFamily: 'gotham',
+            fontSize: 18
+        },
+        headerSubtext: {
+            fontFamily: 'gotham',
+            fontSize: 12
         },
         videoContainer: {
             flex: 1,
             backgroundColor: '#fff',
             alignItems: 'center',
-            justifyContent: 'center'
+            marginTop: 20
         },
         controlBar: {
             position: 'absolute',

@@ -59,7 +59,7 @@ export default class Login extends Component {
                         returnKeyType="next"
                         style={style.input}
                         ref={(input) => this.passwordInput = input }
-                        onSubmitEditing={() => this.login.bind()} 
+                        onSubmitEditing={() => { this.login() }}
                         KeyboardType=""
                         autoCorrect={false}
                         autoCapitalize="none"
